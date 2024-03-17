@@ -1,0 +1,16 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Oct 23, 2022 at 03:31:36 CST
+ncverilog
+	top.sv
+Recompiling... reason: file './AXI_define.svh' is newer than expected.
+	expected: Sat Oct 15 15:59:00 2022
+	actual:   Sat Oct 22 17:49:44 2022
+file: top.sv
+`include "AXI_state.svh"
+                       |
+ncvlog: *E,COFILX (./AXI/AXI.sv,8|23): cannot open include file 'AXI_state.svh'.
+(`include file: ./AXI/AXI.sv line 8, file: top.sv line 4)
+	Total errors/warnings found outside modules and primitives:
+		errors: 1, warnings: 0
+ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 23, 2022 at 03:31:36 CST  (total: 00:00:00)

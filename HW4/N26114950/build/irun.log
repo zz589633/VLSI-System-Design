@@ -1,0 +1,150 @@
+irun: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun	15.20-s039: Started on Sep 27, 2023 at 05:21:39 CST
+irun
+	/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv
+	+incdir+/home/N26114950/VSD_backup/HW4/N26114950/./src+/home/N26114950/VSD_backup/HW4/N26114950/./src/AXI+/home/N26114950/VSD_backup/HW4/N26114950/./include+/home/N26114950/VSD_backup/HW4/N26114950/./sim
+	+define+prog3
+	-define CYCLE=10.0
+	-define CYCLE2=100
+	-define MAX=1500000
+	+access+r
+	+prog_path=/home/N26114950/VSD_backup/HW4/N26114950/./sim/prog3
+
+   User defined plus("+") options:
+	+prog_path=/home/N26114950/VSD_backup/HW4/N26114950/./sim/prog3
+
+Recompiling... reason: file '../src/load_sync.sv' is newer than expected.
+	expected: Wed Sep 27 05:19:04 2023
+	actual:   Wed Sep 27 05:21:38 2023
+file: /home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv
+`define CYCLE 8.0 // Cycle time
+                               |
+ncvlog: *W,MACNDF (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,2|31): The text macro 'CYCLE' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+`define CYCLE2 8.0 // Cycle time for WDT
+                                        |
+ncvlog: *W,MACNDF (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,3|40): The text macro 'CYCLE2' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+`define MAX 300000 // Max cycle number
+                                      |
+ncvlog: *W,MACNDF (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,4|38): The text macro 'MAX' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+	module worklib.sync_pulse:sv
+		errors: 0, warnings: 0
+	module worklib.load_sync:sv
+		errors: 0, warnings: 0
+module sync_pulse
+                |
+ncvlog: *W,RECOME (/home/N26114950/VSD_backup/HW4/N26114950/./src/sync_pulse.sv,1|16): recompiling design unit worklib.sync_pulse:sv.
+	First compiled from line 1 of /home/N26114950/VSD_backup/HW4/N26114950/./src/sync_pulse.sv.
+(`include file: /home/N26114950/VSD_backup/HW4/N26114950/./src/sync_pulse.sv line 1, `include file: /home/N26114950/VSD_backup/HW4/N26114950/./src/WDT_wrapper.sv line 5, `include file: /home/N26114950/VSD_backup/HW4/N26114950/./src/top.sv line 9, file: /home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv line 20)
+	module worklib.sync_pulse:sv
+		errors: 0, warnings: 1
+  int boot_end_flag = 0;
+                    |
+ncvlog: *W,VARIST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,156|20): Local static variable with initializer requires 'static' keyword.
+  int only_pose1 = 0;
+                 |
+ncvlog: *W,VARIST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,157|17): Local static variable with initializer requires 'static' keyword.
+  int only_pose2 = 0;
+                 |
+ncvlog: *W,VARIST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,158|17): Local static variable with initializer requires 'static' keyword.
+  int cycle_number = 0;
+                   |
+ncvlog: *W,VARIST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,159|19): Local static variable with initializer requires 'static' keyword.
+    $value$plusargs("prog_path=%s", prog_path);
+                  |
+ncvlog: *W,NOSYST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,200|18): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+      $fscanf(gf, "%h\n", GOLDEN[num]);
+            |
+ncvlog: *W,NOSYST (/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv,216|12): System function '$fscanf' invoked as a task. Return value will be ignored.
+ncvlog: *W,SPDUSD: Include directory /home/N26114950/VSD_backup/HW4/N26114950/./include given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 4
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+    .ROM_address(ROM_address),
+                           |
+ncelab: *W,CUVMPW (../sim/top_tb_WDT.sv,121|27): port sizes differ in port connection (32/14).
+	$readmemh({prog_path, "/rom0.hex"}, i_ROM.Memory_byte0);
+	                                                     |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,203|54): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/rom1.hex"}, i_ROM.Memory_byte1);
+                                                         |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,204|57): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/rom2.hex"}, i_ROM.Memory_byte2);
+                                                         |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,205|57): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/rom3.hex"}, i_ROM.Memory_byte3);
+                                                         |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,206|57): $readmem default memory order incompatible with IEEE1364.
+	$readmemh({prog_path, "/dram0.hex"}, i_DRAM.Memory_byte0);
+	                                                       |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,207|56): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/dram1.hex"}, i_DRAM.Memory_byte1);
+                                                           |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,208|59): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/dram2.hex"}, i_DRAM.Memory_byte2);
+                                                           |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,209|59): $readmem default memory order incompatible with IEEE1364.
+    $readmemh({prog_path, "/dram3.hex"}, i_DRAM.Memory_byte3);
+                                                           |
+ncelab: *W,MEMODR (../sim/top_tb_WDT.sv,210|59): $readmem default memory order incompatible with IEEE1364.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.load_sync:sv <0x0604d7e4>
+			streams:   8, words:  2233
+		worklib.sync_pulse:sv <0x0600186e>
+			streams:   8, words:  1784
+		worklib.sync_pulse:sv <0x4b79111a>
+			streams:   8, words:  1784
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 50      42
+		Registers:              910     845
+		Scalar wires:          1389       -
+		Expanded wires:         500      11
+		Vectored wires:         551       -
+		Named events:             5       5
+		Always blocks:          208     188
+		Initial blocks:          12      12
+		Cont. assignments:      242     511
+		Pseudo assignments:     554     522
+		Assertions:               5       5
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.top_tb:sv
+Loading snapshot worklib.top_tb:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+CYCLE = 10.000000, CYCLE2 = 100.000000
+`dram_word(`TEST_START) = ffffffff, cycle_number =       47720
+`ismem_word(`FOR_LOOP_ADDR) = 0000006f
+              477210
+`dram_word(`TEST_START)2 = ffffffff, cycle_number =      194451
+             1944520
+
+Done
+
+DRAM[262144] = ffffffff, pass
+DRAM[262145] = 00078d98, pass
+
+
+
+
+        ****************************               
+        **                        **       |__||  
+        **  Congratulations !!    **      / O.O  | 
+        **                        **    /_____   | 
+        **  Simulation PASS!!     **   /^ ^ ^ \  |
+        **                        **  |^ ^ ^ ^ |w| 
+        ****************************   \m___m__|_|
+
+
+Simulation complete via $finish(1) at time 5221820 NS + 0
+../sim/top_tb_WDT.sv:265     $finish;
+ncsim> exit
+TOOL:	irun	15.20-s039: Exiting on Sep 27, 2023 at 05:22:54 CST  (total: 00:01:15)

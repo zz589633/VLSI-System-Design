@@ -1,0 +1,29 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx86.15.20.nc
+-RUNMODE
+/home/N26114950/VSD/part1/N26114950/./sim/top_tb.sv
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./src
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./include
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./sim
+-DEFINE
+prog4
+-DEFINE
+CYCLE=12.0
+-DEFINE
+MAX=100000
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx86.15.20.nc/xllibs
+-ALLOWUNBOUND

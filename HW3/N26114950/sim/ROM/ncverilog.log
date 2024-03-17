@@ -1,0 +1,60 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Nov 14, 2022 at 06:31:32 CST
+ncverilog
+	ROM_tb.sv
+file: ROM_tb.sv
+	module worklib.ROM:v
+		errors: 0, warnings: 0
+	module worklib.test:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ROM:v <0x720d6ba5>
+			streams:   0, words:     0
+		worklib.test:sv <0x495c2351>
+			streams:   2, words:  1299
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               12      12
+		Scalar wires:             3       -
+		Vectored wires:           2       -
+		Always blocks:            3       3
+		Initial blocks:           2       2
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.test:sv
+Loading snapshot worklib.test:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'test.fsdb'
+*Verdi* : Begin traversing the scope (test), layer (0).
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.CK(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.CS(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.OE(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.A(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.DO(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.DO(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.Memory_byte0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.Memory_byte1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.Memory_byte2(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.Memory_byte3(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.latched_DO(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.CK(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.CS(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.OE(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.ROM1.A(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.unmblk1.i(612)
+*Verdi* : End of traversing.
+Simulation complete via $finish(1) at time 80 NS + 0
+./ROM_tb.sv:40     #(`CYCLE*2) $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Nov 14, 2022 at 06:34:19 CST  (total: 00:02:47)

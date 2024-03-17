@@ -1,0 +1,28 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++prog_path=/home/N26114950/VSD/part1/N26114950/./sim/prog4
++rdcycle=1
++incdir+/home/N26114950/VSD/part1/N26114950/./src+/home/N26114950/VSD/part1/N26114950/./include+/home/N26114950/VSD/part1/N26114950/./sim
++define+prog4
++access+r
+-MESSAGES
++EMGRLOG
+irun.log
+-XLSTIME
+1666281389
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx86.15.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun	15.20-s039"
+-XLNAME
+./INCA_libs/irun.lnx86.15.20.nc/cav16_6736

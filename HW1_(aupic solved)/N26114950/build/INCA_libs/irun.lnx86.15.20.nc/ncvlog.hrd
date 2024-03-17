@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./src
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./include
+-INCDIR
+/home/N26114950/VSD/part1/N26114950/./sim
+-DEFINE
+prog4
+-DEFINE
+CYCLE=12.0
+-DEFINE
+MAX=100000

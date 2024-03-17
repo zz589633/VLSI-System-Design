@@ -1,0 +1,3101 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/N26114950/N26114950_modify/build/top.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 4182.501330 -snap {("G2" 0)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 15831.250000 15831.356762
+wvZoom -win $_nWave1 15831.250000 15831.316726
+wvZoom -win $_nWave1 15831.250000 15831.335409
+wvZoom -win $_nWave1 15831.250000 15831.382562
+wvZoom -win $_nWave1 15831.250000 15831.391459
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 15831.404804 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave1 {G2}
+wvSetCursor -win $_nWave1 15831.365658 -snap {("G2" 0)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 15831.368327 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 15831.327402 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 6 )} 
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 15831.943950 -snap {("G2" 0)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 191276.837189 -snap {("G2" 0)}
+wvZoom -win $_nWave1 289309.737544 316071.592527
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 292690.182384 316071.592527
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 253533.362989 316071.592527
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 282830.551601 316071.592527
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvSelectGroup -win $_nWave1 {G2}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 285365.885231 316071.592527
+wvZoom -win $_nWave1 298970.371204 316016.956037
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 299468.321138 316428.172544
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 289309.737544 316071.592527
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 264801.512456 316071.592527
+wvZoom -win $_nWave1 310552.304547 315980.364626
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 287056.107651 316071.592527
+wvSelectGroup -win $_nWave1 {G2}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 9 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 9 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvGetSignalClose -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 0.000000 3727199.082149
+wvZoom -win $_nWave1 0.000000 457609.851723
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/IM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/cs\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 0.000000 15077478.136121
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/cs\[3:0\]} \
+{/top_tb/TOP/ROM1/cs\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/cs\[3:0\]} \
+{/top_tb/TOP/ROM1/cs\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvGetSignalClose -win $_nWave1
+wvRenameSignal -win $_nWave1 {/top_tb/TOP/ROM1/cs[1:0]} {ROM cs[1:0]}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvRenameSignal -win $_nWave1 {/top_tb/TOP/DRAM1/cs[3:0]} {DRAM cs[3:0]}
+wvSelectGroup -win $_nWave1 {G2}
+wvZoom -win $_nWave1 0.000000 1006059.484172
+wvZoom -win $_nWave1 0.000000 247934.588181
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 0.000000 344108.503170
+wvZoom -win $_nWave1 0.000000 33369.952710
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 16963811.404437 20824750.559210
+wvZoom -win $_nWave1 16984421.399918 17856911.208915
+wvZoom -win $_nWave1 17124143.967187 17270076.426343
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 37255962.104093 45621530.618327
+wvZoom -win $_nWave1 42949609.713867 43626893.285749
+wvZoom -win $_nWave1 43316572.076205 43513610.980125
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 12451078.718861 24123965.017794
+wvZoom -win $_nWave1 16272806.617443 18651001.423898
+wvZoom -win $_nWave1 17123370.952133 17353996.605072
+wvZoom -win $_nWave1 17212420.359048 17239914.876391
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetSearchMode -win $_nWave1 -value 
+wvSetSearchMode -win $_nWave1 -value 6
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetSearchMode -win $_nWave1 -value 5
+wvSearchNext -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 43531975.312444 43559959.056075
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 13 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 43525004.273097 43531029.242811
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSelectGroup -win $_nWave1 {G2}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetSearchMode -win $_nWave1 -value 6
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1440 837
+wvSelectGroup -win $_nWave1 {G2}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectGroup -win $_nWave1 {G2}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 )} 
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CD"
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 18 19 20 21 )} 
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvGetSignalClose -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1440 877
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 44965080.155261 44965080.204513
+wvZoom -win $_nWave1 44965081.060497 44965081.154013
+wvZoom -win $_nWave1 44965082.031188 44965082.059243
+wvZoom -win $_nWave1 44965083.008736 44965083.029933
+wvZoom -win $_nWave1 44965083.968206 44965084.007483
+wvZoom -win $_nWave1 44965084.923936 44965084.957601
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvPanUp -win $_nWave1
+wvZoom -win $_nWave1 106950273.637781 109131541.168953
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 102451409.354738 109199705.779302
+wvSelectGroup -win $_nWave1 {G2}
+wvResizeWindow -win $_nWave1 0 23 1920 1057
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvResizeWindow -win $_nWave1 0 23 1920 1057
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvZoom -win $_nWave1 107899691.069045 109136598.269059
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 101156281.758105 109199705.779302
+wvZoom -win $_nWave1 108136609.836346 108989092.432109
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 107463433.425131 107646984.245552
+wvZoom -win $_nWave1 107612310.992038 107646755.379162
+wvZoom -win $_nWave1 107642567.938046 107646712.431010
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 101565269.420199 109199705.779302
+wvZoom -win $_nWave1 108185905.938499 109190186.531872
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 17 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 107562891.209205 109315999.476938
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 107361866.938976 109321247.224259
+wvZoom -win $_nWave1 108192526.910217 109318804.106621
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvZoom -win $_nWave1 108229620.550099 108273712.989978
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 40764793.296296 52305819.212963
+wvZoom -win $_nWave1 45146108.690580 46378576.273039
+wvZoom -win $_nWave1 45748648.397560 45797338.474892
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 45752134.847538 45760550.416459
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 101574526.342593 108931086.722222
+wvZoom -win $_nWave1 108172725.250896 108817559.555777
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSetCursor -win $_nWave1 108222480.984201 -snap {("G1" 21)}
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 18 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 108237208.681300 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 23 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 603227849.259259 653732525.185185
+wvZoom -win $_nWave1 647871488.719648 653077834.941642
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 23 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 1605319616.592592 1705454458.074074
+wvZoom -win $_nWave1 1682027850.097258 1705330834.812393
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 1689752357.993313 1702324462.092713
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 1686754240.472735 1686793966.785422
+wvZoom -win $_nWave1 1686790582.691384 1686793917.739856
+wvZoom -win $_nWave1 1686793711.872283 1686793913.622128
+wvZoom -win $_nWave1 1686793874.890857 1686793913.372772
+wvZoom -win $_nWave1 1686793902.516214 1686793913.324407
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 1683319387.851852 1705454458.074074
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 1689690540.338984 1707453251.011138
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 1690385730.890953 1690414039.121754
+wvZoom -win $_nWave1 1690411592.730485 1690414004.172368
+wvZoom -win $_nWave1 1690413803.218393 1690414001.194794
+wvZoom -win $_nWave1 1690413982.130007 1690414000.949986
+wvSetCursor -win $_nWave1 1690413992.829507 -snap {("G2" 0)}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 23 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 94005876.250000 102425257.759259
+wvZoom -win $_nWave1 101448193.732259 102414863.461100
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 23 )} 
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 17 18 19 20 21 22 23 )} 
+wvResizeWindow -win $_nWave1 0 23 1920 1057
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvResizeWindow -win $_nWave1 2020 99 1438 835
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 39200405.338313 62270069.169596
+wvZoom -win $_nWave1 49133740.379899 53127346.508865
+wvZoom -win $_nWave1 50776102.127127 51593773.680773
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvZoom -win $_nWave1 51003647.749668 51182535.817709
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_WB_stage"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 25 26 )} 
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 25 26 )} 
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetCursor -win $_nWave1 51048369.766670 -snap {("G2" 0)}
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 51381079.488283 51531257.125651
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 50889572.183757 51313777.658199
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 50536067.621720 50867052.633877
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 55003548.038886 57435674.943030
+wvZoom -win $_nWave1 55841280.639196 56392262.474888
+wvZoom -win $_nWave1 55924948.251277 56088882.353007
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 55617521.213577 55811003.931175
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 55272835.335185 55391313.641270
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 54635831.603088 54990388.904260
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 54489193.706918 55079247.092079
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 54606111.692488 54752896.577809
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 17)}
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 21)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 54874492.451939 55098475.313984
+wvZoom -win $_nWave1 54979294.309603 55083819.645224
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 55353649.863470 55511599.259519
+wvZoom -win $_nWave1 55369932.301201 55420437.108086
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 55698462.952403 55801218.411349
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 56049226.957318 56223784.378935
+wvZoom -win $_nWave1 56078643.115397 56174218.691308
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 56409617.794929 56585193.667712
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/DM1/ARVALID} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/DM1/ARVALID} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 64266096.201125 68594366.605735
+wvZoom -win $_nWave1 65471065.307589 66777561.744536
+wvZoom -win $_nWave1 65756558.973431 65865433.676510
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 65894601.343875 65945409.538646
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 65801076.629789 65938070.577170
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 65796341.036537 65866529.293529
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 72996529.725625 74793349.104598
+wvZoom -win $_nWave1 74565973.812810 74791130.809064
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 74195993.612788 74400580.710619
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 73512268.583371 73635525.995397
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 73149039.642002 73298774.572167
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 72786902.940525 72923697.814997
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 72427014.202868 72508077.832185
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 72049617.973047 72277797.077791
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 71738900.006954 71871863.633422
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 71361513.121454 71473136.906637
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/DM1/ARVALID} \
+{/top_tb/TOP/DM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/DM1/ARVALID} \
+{/top_tb/TOP/DM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvGetSignalClose -win $_nWave1
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/L1CI"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/CPU/u_CPU/u_ID_stage"
+wvGetSignalSetScope -win $_nWave1 \
+           "/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/ROM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DM1"
+wvGetSignalSetScope -win $_nWave1 "/top_tb/TOP/DRAM1"
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_target_o\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_jump_o} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_Inst_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/ID_stage_pc_i\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/branch_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jal_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/jalr_target\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_flush_o} \
+{/top_tb/TOP/ROM1/ROM cs\[1:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/A_reg\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CI/I_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_read_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_hit_count\[31:0\]} \
+{/top_tb/TOP/CPU/L1CD/D_write_miss_count\[31:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/stall_cnt\[63:0\]} \
+{/top_tb/TOP/CPU/u_CPU/u_ID_stage/cycle\[63:0\]} \
+{/top_tb/TOP/DRAM1/DRAM cs\[3:0\]} \
+{/top_tb/TOP/DRAM1/ARADDR\[31:0\]} \
+{/top_tb/TOP/DRAM1/ARVALID} \
+{/top_tb/TOP/DRAM1/DRAM_A\[10:0\]} \
+{/top_tb/TOP/DRAM1/DRAM_CASn} \
+{/top_tb/TOP/DRAM1/DRAM_RASn} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 25 )} 
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 71399685.699839 -snap {("G1" 28)}
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvResizeWindow -win $_nWave1 0 23 1920 1017
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvZoom -win $_nWave1 66293079.882597 69159433.874241
+wvZoom -win $_nWave1 66893918.573810 67298601.104073
+wvZoom -win $_nWave1 67078296.126131 67112976.071696
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 67424047.913881 67488361.894313
+wvZoom -win $_nWave1 67443357.968424 67455808.393735
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 66325575.364040 66439548.184649
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 66164453.491250 66284750.327798
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 66044824.146389 66081017.029395
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 65720181.572490 65815148.841339
+wvZoom -win $_nWave1 65749749.063706 65759878.125057
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 65376728.581789 65446270.645415
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 65672175.166520 65864251.889730
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 59647252.285420 59682035.782288
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 59984429.178920 60035210.510970
+wvZoom -win $_nWave1 60015956.183466 60022937.833927
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 59632675.625346 59742866.902652
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 59291028.317343 59407333.783895
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoom -win $_nWave1 53895764.428074 54089208.326906
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 49710482.836379 50405068.081015
+wvZoom -win $_nWave1 49931448.302605 50108306.321122
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 75429730.681258 94236607.231813
+wvZoom -win $_nWave1 90271162.237791 92798843.549765
+wvZoom -win $_nWave1 92582229.676543 92784818.191066
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 89720260.533292 96056627.543157
+wvZoom -win $_nWave1 94189313.467498 94361200.118813
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 93454609.303762 93658075.623445
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 93143890.392630 93262307.288919
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 92777907.716243 92934434.119229
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 92301862.866711 92700223.527333
+wvZoom -win $_nWave1 92421223.705836 92526339.835765
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 92010285.740429 92259142.669486
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 93808898.428052 94120660.006254
+wvZoom -win $_nWave1 94087600.208810 94120275.590002
+wvZoom -win $_nWave1 94116750.194364 94120235.299757
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 95531999.482121 99781972.379778
+wvZoom -win $_nWave1 98731308.052925 99056213.502561
+wvZoom -win $_nWave1 98896965.763678 98992714.718626
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 97626189.025894 99781972.379778
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 98599993.999065 99849338.236211
+wvZoom -win $_nWave1 98862648.983565 99839324.996328
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 16 17 18 19 20 21 22 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 602129856.843403 612720080.456227
+wvZoom -win $_nWave1 606034267.275255 612687434.884051
+wvZoom -win $_nWave1 606600319.759795 611908087.260278
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 16 17 18 19 20 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 16 17 18 19 20 21 22 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 1506613746.454994 1574654367.262639
+wvZoom -win $_nWave1 1555064373.477940 1572766680.494479
+wvZoom -win $_nWave1 1558753263.595120 1570485680.390915
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 16 17 18 19 20 21 22 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 88495822.028360 94193976.140567
+wvZoom -win $_nWave1 92960898.401119 94186950.056582
+wvZoom -win $_nWave1 93198247.488542 94059960.735908
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 16 17 18 19 20 21 22 )} 

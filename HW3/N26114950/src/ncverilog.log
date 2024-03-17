@@ -1,0 +1,36 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Nov 22, 2022 at 06:53:08 CST
+ncverilog
+	DRAM_wrapper.sv
+Recompiling... reason: file './DRAM_wrapper.sv' is newer than expected.
+	expected: Mon Nov 21 18:18:50 2022
+	actual:   Tue Nov 22 06:53:08 2022
+file: DRAM_wrapper.sv
+	module worklib.DRAM_wrapper:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.DRAM_wrapper:sv <0x545bcd22>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             1       1
+		Registers:          25      25
+		Scalar wires:        9       -
+		Vectored wires:      8       -
+		Always blocks:       8       8
+		Cont. assignments:   0      17
+	Writing initial simulation snapshot: worklib.DRAM_wrapper:sv
+Loading snapshot worklib.DRAM_wrapper:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Nov 22, 2022 at 06:53:10 CST  (total: 00:00:02)

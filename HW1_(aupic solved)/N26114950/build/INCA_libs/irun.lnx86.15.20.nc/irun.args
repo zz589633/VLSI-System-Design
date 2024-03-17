@@ -1,0 +1,14 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/home/N26114950/VSD/part1/N26114950/./sim/top_tb.sv
++incdir+/home/N26114950/VSD/part1/N26114950/./src+/home/N26114950/VSD/part1/N26114950/./include+/home/N26114950/VSD/part1/N26114950/./sim
++define+prog4
+-define
+CYCLE=12.0
+-define
+MAX=100000
++access+r
++prog_path=/home/N26114950/VSD/part1/N26114950/./sim/prog4
++rdcycle=1

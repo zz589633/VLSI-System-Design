@@ -1,0 +1,188 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top
+Version: O-2018.06
+Date   : Fri Dec 23 16:27:30 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: CPU/L1CI/TA/i_tag_array
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: CPU/u_CPU/u_IF_stage/PC_reg[30]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                enG1000K              fsa0m_a_generic_core_ss1p62v125c
+  L1C_inst           enG50K                fsa0m_a_generic_core_ss1p62v125c
+  CPU_wrapper        enG200K               fsa0m_a_generic_core_ss1p62v125c
+  ID_stage           enG30K                fsa0m_a_generic_core_ss1p62v125c
+  Regfile            enG30K                fsa0m_a_generic_core_ss1p62v125c
+  Branch_control     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Branch_control_DW01_cmp2_1
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  CPU                enG50K                fsa0m_a_generic_core_ss1p62v125c
+  IF_stage           enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  CPU/L1CI/TA/i_tag_array/CK (tag_array)                  0.00 #     1.00 r
+  CPU/L1CI/TA/i_tag_array/DO20 (tag_array)                3.08       4.08 r
+  CPU/L1CI/TA/DO[20] (tag_array_wrapper_1)                0.00       4.08 r
+  CPU/L1CI/U227/O (XNR2HP)                                0.15       4.23 r
+  CPU/L1CI/U262/O (NR3HT)                                 0.15       4.38 f
+  CPU/L1CI/U241/O (AN4B1P)                                0.27       4.65 f
+  CPU/L1CI/U622/O (ND3HT)                                 0.14       4.79 r
+  CPU/L1CI/U205/O (INV6CK)                                0.09       4.88 f
+  CPU/L1CI/U238/O (ND2P)                                  0.21       5.10 r
+  CPU/L1CI/U240/O (INV12)                                 0.16       5.26 f
+  CPU/L1CI/U243/O (AO22P)                                 0.35       5.61 f
+  CPU/L1CI/U255/O (OR2T)                                  0.24       5.85 f
+  CPU/L1CI/core_out[20] (L1C_inst)                        0.00       5.85 f
+  CPU/u_CPU/CPU_IM1_Inst_i[20] (CPU)                      0.00       5.85 f
+  CPU/u_CPU/u_ID_stage/ID_stage_Inst_i[20] (ID_stage)     0.00       5.85 f
+  CPU/u_CPU/u_ID_stage/U140/O (ND2F)                      0.11       5.96 r
+  CPU/u_CPU/u_ID_stage/U139/O (INV8CK)                    0.10       6.07 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/rb_i[0] (Regfile)        0.00       6.07 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/U817/O (AN2T)            0.31       6.38 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/U698/O (AN2T)            0.27       6.65 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/U680/O (BUF12CK)         0.23       6.88 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/U152/O (AOI22S)          0.25       7.13 r
+  CPU/u_CPU/u_ID_stage/u_Regfile/U2081/O (AN4B1)          0.25       7.38 r
+  CPU/u_CPU/u_ID_stage/u_Regfile/U391/O (AN4)             0.22       7.60 r
+  CPU/u_CPU/u_ID_stage/u_Regfile/U3/O (ND2P)              0.12       7.72 f
+  CPU/u_CPU/u_ID_stage/u_Regfile/rb_value_o[15] (Regfile)
+                                                          0.00       7.72 f
+  CPU/u_CPU/u_ID_stage/U370/O (AOI222HP)                  0.42       8.14 r
+  CPU/u_CPU/u_ID_stage/U312/O (INV4)                      0.08       8.21 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_rb_i[15] (Branch_control)
+                                                          0.00       8.21 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/U98/O (MUX2T)     0.34       8.56 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/A[15] (Branch_control_DW01_cmp2_1)
+                                                          0.00       8.56 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U271/O (ND2T)
+                                                          0.14       8.70 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U268/O (OAI12HP)
+                                                          0.12       8.82 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U247/O (AOI12HT)
+                                                          0.17       8.99 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U260/O (OAI12HP)
+                                                          0.09       9.08 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U214/O (AOI12HP)
+                                                          0.15       9.23 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U280/O (OAI12HP)
+                                                          0.11       9.34 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/U284/O (AOI12HP)
+                                                          0.14       9.48 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/r315/LT_LE (Branch_control_DW01_cmp2_1)
+                                                          0.00       9.48 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/U17/O (ND2T)      0.07       9.55 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/U119/O (AN4B1P)
+                                                          0.26       9.82 f
+  CPU/u_CPU/u_ID_stage/u_Branch_control/U149/O (NR2F)     0.22      10.04 r
+  CPU/u_CPU/u_ID_stage/u_Branch_control/Bran_c_branch_taken_o (Branch_control)
+                                                          0.00      10.04 r
+  CPU/u_CPU/u_ID_stage/ID_stage_Bran_c_branch_taken_o (ID_stage)
+                                                          0.00      10.04 r
+  CPU/u_CPU/u_IF_stage/IF_stage_PCSrc_i (IF_stage)        0.00      10.04 r
+  CPU/u_CPU/u_IF_stage/U67/O (NR2F)                       0.20      10.24 f
+  CPU/u_CPU/u_IF_stage/U159/O (AO12S)                     0.33      10.58 f
+  CPU/u_CPU/u_IF_stage/U123/O (INV1)                      0.10      10.68 r
+  CPU/u_CPU/u_IF_stage/U124/O (ND2)                       0.10      10.78 f
+  CPU/u_CPU/u_IF_stage/PC_reg[30]/D (QDFFN)               0.00      10.78 f
+  data arrival time                                                 10.78
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             1.00      11.00
+  clock uncertainty                                      -0.10      10.90
+  CPU/u_CPU/u_IF_stage/PC_reg[30]/CK (QDFFN)              0.00      10.90 r
+  library setup time                                     -0.12      10.78
+  data required time                                                10.78
+  --------------------------------------------------------------------------
+  data required time                                                10.78
+  data arrival time                                                -10.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: WDT_wrapper/WDT/count_reg[0]
+              (rising edge-triggered flip-flop clocked by clk2)
+  Endpoint: WDT_wrapper/WDT/count_reg[31]
+            (rising edge-triggered flip-flop clocked by clk2)
+  Path Group: clk2
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                enG1000K              fsa0m_a_generic_core_ss1p62v125c
+  WDT                enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  WDT_DW01_inc_0     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk2 (rise edge)                                  0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  WDT_wrapper/WDT/count_reg[0]/CK (DFCRBN)                0.00       1.00 r
+  WDT_wrapper/WDT/count_reg[0]/Q (DFCRBN)                 0.43       1.43 f
+  WDT_wrapper/WDT/add_34/A[0] (WDT_DW01_inc_0)            0.00       1.43 f
+  WDT_wrapper/WDT/add_34/U1_1_1/C (HA1)                   0.22       1.65 f
+  WDT_wrapper/WDT/add_34/U1_1_2/C (HA1)                   0.21       1.86 f
+  WDT_wrapper/WDT/add_34/U1_1_3/C (HA1)                   0.21       2.07 f
+  WDT_wrapper/WDT/add_34/U1_1_4/C (HA1)                   0.21       2.27 f
+  WDT_wrapper/WDT/add_34/U1_1_5/C (HA1)                   0.21       2.48 f
+  WDT_wrapper/WDT/add_34/U1_1_6/C (HA1)                   0.21       2.69 f
+  WDT_wrapper/WDT/add_34/U1_1_7/C (HA1)                   0.21       2.90 f
+  WDT_wrapper/WDT/add_34/U1_1_8/C (HA1)                   0.21       3.11 f
+  WDT_wrapper/WDT/add_34/U1_1_9/C (HA1)                   0.21       3.31 f
+  WDT_wrapper/WDT/add_34/U1_1_10/C (HA1)                  0.21       3.52 f
+  WDT_wrapper/WDT/add_34/U1_1_11/C (HA1)                  0.21       3.73 f
+  WDT_wrapper/WDT/add_34/U1_1_12/C (HA1)                  0.21       3.94 f
+  WDT_wrapper/WDT/add_34/U1_1_13/C (HA1)                  0.21       4.15 f
+  WDT_wrapper/WDT/add_34/U1_1_14/C (HA1)                  0.21       4.35 f
+  WDT_wrapper/WDT/add_34/U1_1_15/C (HA1)                  0.21       4.56 f
+  WDT_wrapper/WDT/add_34/U1_1_16/C (HA1)                  0.21       4.77 f
+  WDT_wrapper/WDT/add_34/U1_1_17/C (HA1)                  0.21       4.98 f
+  WDT_wrapper/WDT/add_34/U1_1_18/C (HA1)                  0.21       5.19 f
+  WDT_wrapper/WDT/add_34/U1_1_19/C (HA1)                  0.21       5.39 f
+  WDT_wrapper/WDT/add_34/U1_1_20/C (HA1)                  0.21       5.60 f
+  WDT_wrapper/WDT/add_34/U1_1_21/C (HA1)                  0.21       5.81 f
+  WDT_wrapper/WDT/add_34/U1_1_22/C (HA1)                  0.21       6.02 f
+  WDT_wrapper/WDT/add_34/U1_1_23/C (HA1)                  0.21       6.23 f
+  WDT_wrapper/WDT/add_34/U1_1_24/C (HA1)                  0.21       6.43 f
+  WDT_wrapper/WDT/add_34/U1_1_25/C (HA1)                  0.21       6.64 f
+  WDT_wrapper/WDT/add_34/U1_1_26/C (HA1)                  0.21       6.85 f
+  WDT_wrapper/WDT/add_34/U1_1_27/C (HA1)                  0.21       7.06 f
+  WDT_wrapper/WDT/add_34/U1_1_28/C (HA1)                  0.21       7.27 f
+  WDT_wrapper/WDT/add_34/U1_1_29/C (HA1)                  0.21       7.47 f
+  WDT_wrapper/WDT/add_34/U1_1_30/C (HA1)                  0.20       7.68 f
+  WDT_wrapper/WDT/add_34/U1/O (XOR2HS)                    0.18       7.86 r
+  WDT_wrapper/WDT/add_34/SUM[31] (WDT_DW01_inc_0)         0.00       7.86 r
+  WDT_wrapper/WDT/count_reg[31]/D (DFCRBN)                0.00       7.86 r
+  data arrival time                                                  7.86
+
+  clock clk2 (rise edge)                                100.00     100.00
+  clock network delay (ideal)                             1.00     101.00
+  clock uncertainty                                      -0.10     100.90
+  WDT_wrapper/WDT/count_reg[31]/CK (DFCRBN)               0.00     100.90 r
+  library setup time                                     -0.22     100.68
+  data required time                                               100.68
+  --------------------------------------------------------------------------
+  data required time                                               100.68
+  data arrival time                                                 -7.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       92.82
+
+
+1

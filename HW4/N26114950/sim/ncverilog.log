@@ -1,0 +1,42 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Dec 15, 2022 at 16:51:52 CST
+ncverilog
+	top_tb_WDT.sv
+file: top_tb_WDT.sv
+`include "top.sv"
+                |
+ncvlog: *E,COFILX (top_tb_WDT.sv,20|16): cannot open include file 'top.sv'.
+	module worklib.SRAM:sv
+		errors: 0, warnings: 0
+	module worklib.data_array:sv
+		errors: 0, warnings: 0
+	module worklib.tag_array:sv
+		errors: 0, warnings: 0
+	module worklib.ROM:v
+		errors: 0, warnings: 0
+	module worklib.DRAM:sv
+		errors: 0, warnings: 0
+  int boot_end_flag = 0;
+                    |
+ncvlog: *W,VARIST (top_tb_WDT.sv,156|20): Local static variable with initializer requires 'static' keyword.
+  int only_pose1 = 0;
+                 |
+ncvlog: *W,VARIST (top_tb_WDT.sv,157|17): Local static variable with initializer requires 'static' keyword.
+  int only_pose2 = 0;
+                 |
+ncvlog: *W,VARIST (top_tb_WDT.sv,158|17): Local static variable with initializer requires 'static' keyword.
+  int cycle_number = 0;
+                   |
+ncvlog: *W,VARIST (top_tb_WDT.sv,159|19): Local static variable with initializer requires 'static' keyword.
+    $value$plusargs("prog_path=%s", prog_path);
+                  |
+ncvlog: *W,NOSYST (top_tb_WDT.sv,187|18): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+      $fscanf(gf, "%h\n", GOLDEN[num]);
+            |
+ncvlog: *W,NOSYST (top_tb_WDT.sv,203|12): System function '$fscanf' invoked as a task. Return value will be ignored.
+	module worklib.top_tb:sv
+		errors: 0, warnings: 6
+	Total errors/warnings found outside modules and primitives:
+		errors: 1, warnings: 0
+ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	ncverilog	15.20-s039: Exiting on Dec 15, 2022 at 16:51:52 CST  (total: 00:00:00)

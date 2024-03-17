@@ -1,0 +1,64 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Nov 16, 2022 at 17:20:08 CST
+ncverilog
+	DRAM_tb.sv
+Loading snapshot worklib.test:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'test.fsdb'
+*Verdi* : Begin traversing the scope (test), layer (0).
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.CK(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.Q(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.RST(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.CSn(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.WEn(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.RASn(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.CASn(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.A(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.D(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.VALID(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.Q(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.VALID(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.Memory_byte0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.Memory_byte1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.Memory_byte2(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.Memory_byte3(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.column_delay(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.row_delay(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.precharge(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.latched_WEn(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.wait_act(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.row_l(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.row_pre(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.addr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.CK(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.RST(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.CSn(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.WEn(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.RASn(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.CASn(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.A(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.M1.D(36)
+*Verdi* : End of traversing.
+ncsim: *E,ASRTST (./DRAM.sv,152): (time 1195 NS) Assertion test.M1.CL_check has failed
+
+ *** CL Violation ! CASn should have more than 5 cycles interval ***
+
+ncsim: *E,ASRTST (./DRAM.sv,155): (time 1385 NS) Assertion test.M1.tRCD_check has failed
+
+ *** tRCD Violation ! RASn and CASn should have more than 5 cycles interval ***
+
+ncsim: *F,ASRTST (./DRAM.sv,164): (time 1555 NS) Assertion test.M1.stable_row_addr has failed
+
+ *** Violation ! Row address in precharge should be same as the activated row address ***
+
+Simulation terminated via $fatal(1) at time 1555 NS + 3
+./DRAM.sv:164 	else $fatal(1,"\n *** Violation ! Row address in precharge should be same as the activated row address ***\n");
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Nov 16, 2022 at 17:20:10 CST  (total: 00:00:02)

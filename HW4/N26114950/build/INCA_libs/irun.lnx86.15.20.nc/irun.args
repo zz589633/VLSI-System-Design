@@ -1,0 +1,15 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/home/N26114950/VSD_backup/HW4/N26114950/./sim/top_tb_WDT.sv
++incdir+/home/N26114950/VSD_backup/HW4/N26114950/./src+/home/N26114950/VSD_backup/HW4/N26114950/./src/AXI+/home/N26114950/VSD_backup/HW4/N26114950/./include+/home/N26114950/VSD_backup/HW4/N26114950/./sim
++define+prog3
+-define
+CYCLE=10.0
+-define
+CYCLE2=100
+-define
+MAX=1500000
++access+r
++prog_path=/home/N26114950/VSD_backup/HW4/N26114950/./sim/prog3
